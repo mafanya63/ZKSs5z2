@@ -66,6 +66,6 @@ if __name__ == '__main__':
     with open("results.txt", 'w') as file:
         for i in range(count):
             if i == 0:
-                file.write((str(df[i]) + "000000")[:12] + str(4 * " " + str(sigma[i])[:12] + "\n"))
+                file.write((str(df[i]) + "000000")[:12] + str(4 * " " + str(sigma[i]) + "\n"))
             else:
-                file.write((str(df[i])[:12]) + str(4 * " " + str(sigma[i])[:12] + "\n"))
+                file.write((str(df[i])[:12]) + str(4 * " " + str(sigma[i]) + "\n"))
