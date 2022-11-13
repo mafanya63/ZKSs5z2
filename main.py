@@ -55,8 +55,8 @@ if __name__ == '__main__':
     sigma = (2 * lmb ** 2 / math.pi) * abs(summa) ** 2
 
     plt.plot(df, sigma)
-    plt.xlabel(u'2\u03C0r/\u03BB')
-    plt.ylabel(u'\u03C3/\u03C0r^2')
+    plt.xlabel('f, Гц')
+    plt.ylabel(u'\u03C3, м^2')
     plt.show()
 
     if not os.path.exists('results'):
